@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=PT+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: .5rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 100%;
+}
+
+h2{
+  font-size: 2.5rem;
+  letter-spacing: 2pt;
+  font-family: 'Gruppo', cursive
+}
+
+hr{
+  width: 35%;
+  margin: .8rem auto;
+  border: 2px dashed #888;
+  }
+
+form{
+  margin: 1rem 0;
+}
+
+img{
+  max-width: 75%;
+  margin-top: 2rem;
+  border-radius: 3%;
+  box-shadow: 5px 5px 20px #888;
+}
+.container{
+  background-color: #c9deed;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 1.5rem;
+}
+
+ul li {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

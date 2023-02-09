@@ -31,14 +31,15 @@ const showProfile = (profile) =>{
   const details = `
     <img src=${profile.avatar_url} alt="profile image" />
     <h2>${profile.name}</h2>
+    <hr />
     <ul>
-      <li>${profile.login}</li>
-      <li>${profile.company}</li>
-      <li>${profile.location}</li>
-      <li>${profile.followers}</li>
-      <li>${profile.following}</li>
+      <li>Username: <br /> ${profile.login}</li>
+      <li>Company: <br /> ${profile.company}</li>
+      <li>Location: <br />${profile.location}</li>
+      <li>Followers: <br />${profile.followers}</li>
+      <li>Following: <br />${profile.following}</li>
     </ul>
   `
+  profileEl.classList.add('container');
   profileEl.innerHTML=details;
-  console.log('show profile called');
 }
